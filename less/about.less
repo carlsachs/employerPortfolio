@@ -5,23 +5,42 @@
 #middle-top {
     h2{
         display:flex;
+        color: @mainColor;
         justify-content: center;
+        @media @tablet {
+            margin-bottom: 40px;
+        }
+        @media @mobile {
+            margin-bottom: 20px;;
+        }
     }
     img {
         margin-left:42%;
         margin-top: 20px;
         margin-bottom: 20px;
+        @media @tablet {
+            margin-left: 30%;
+        }
+        @media @mobile {
+            margin-left: 20%;
+        }
     }
+
 }
 #info {
     display: flex;
     flex-direction: column;
     width: 100%;
+    color: @mainColor;
     .mission {
         display:flex;
         flex-direction: column;
         h2 {
             margin: 0 auto;
+            @media @tablet {
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
         }
         p {
             margin: 0 auto;

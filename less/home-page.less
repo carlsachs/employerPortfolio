@@ -1,5 +1,5 @@
 body {
-    background-color: @mediumDark;
+    background-image: url("/images/Camp-bg.jpg");
         #top {
             display: flex;
             flex-direction: column;
@@ -15,29 +15,37 @@ body {
         }
         #buttons {
             display:flex;
+            @media @mobile {
+                flex-direction: column;
+                margin: 0 auto;
+                margin-left: 30%;
+            }
             .button {
                 width: 200px;
                 height: 50px;
-                background-color: @lighterBlue;
+                border: 1px solid #149dd3;
+                background-color: none;
                 margin-right:50px;
                 margin-top: 50px;
                 border-radius: 5%;
                 text-align: center;
                 padding-top: 15px;
                 text-decoration: none;
-                color: @darkest;
+                color: rgb(12, 109, 236);
+                
             }
             .button2 {
                 width: 200px;
                 height: 50px;
-                background-color: @lighterBlue;
+                background-color: none;
+                border: 1px solid #149dd3;
                 margin-right:50px;
                 margin-top: 50px;
                 border-radius: 5%;
                 text-align: center;
                 padding-top: 15px;
                 text-decoration: none;
-                color: darkest;
+                color: rgb(12, 109, 236);
             }
         }
     }

@@ -1,5 +1,5 @@
 body {
-  background-color: #2A3F70;
+  background-image: url("/images/Camp-bg.jpg");
 }
 body #top {
   display: flex;
@@ -17,29 +17,38 @@ body #top p {
 body #buttons {
   display: flex;
 }
+@media (max-width: 500px) {
+  body #buttons {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 30%;
+  }
+}
 body #buttons .button {
   width: 200px;
   height: 50px;
-  background-color: #6E7FA5;
+  border: 1px solid #149dd3;
+  background-color: none;
   margin-right: 50px;
   margin-top: 50px;
   border-radius: 5%;
   text-align: center;
   padding-top: 15px;
   text-decoration: none;
-  color: #122552;
+  color: #0c6dec;
 }
 body #buttons .button2 {
   width: 200px;
   height: 50px;
-  background-color: #6E7FA5;
+  background-color: none;
+  border: 1px solid #149dd3;
   margin-right: 50px;
   margin-top: 50px;
   border-radius: 5%;
   text-align: center;
   padding-top: 15px;
   text-decoration: none;
-  color: darkest;
+  color: #0c6dec;
 }
 #top {
   display: flex;
@@ -47,17 +56,39 @@ body #buttons .button2 {
 }
 #middle-top h2 {
   display: flex;
+  color: #0c6dec;
   justify-content: center;
+}
+@media (max-width: 800px) {
+  #middle-top h2 {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 500px) {
+  #middle-top h2 {
+    margin-bottom: 20px;
+  }
 }
 #middle-top img {
   margin-left: 42%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 800px) {
+  #middle-top img {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 500px) {
+  #middle-top img {
+    margin-left: 20%;
+  }
+}
 #info {
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: #0c6dec;
 }
 #info .mission {
   display: flex;
@@ -65,6 +96,12 @@ body #buttons .button2 {
 }
 #info .mission h2 {
   margin: 0 auto;
+}
+@media (max-width: 800px) {
+  #info .mission h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
 #info .mission p {
   margin: 0 auto;
@@ -80,6 +117,101 @@ body #buttons .button2 {
   text-align: center;
   margin-bottom: 10px;
 }
+@media (max-width: 800px) {
+  #top p {
+    width: 70%;
+    text-align: center;
+  }
+}
+#projects {
+  width: 70%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #149dd3;
+  padding-top: 30px;
+  border-radius: 20%;
+}
+@media (max-width: 800px) {
+  #projects {
+    height: 500px;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 500px) {
+  #projects {
+    background-color: #149dd3;
+    width: 90%;
+    height: 575px;
+  }
+}
+#projects .dev {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#projects .dev .button {
+  width: 10%;
+  height: 50px;
+  border-radius: 10%;
+  color: green;
+  background-color: #050836;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 16px;
+}
+@media (max-width: 800px) {
+  #projects .dev .button {
+    width: 40%;
+  }
+}
+#projects .dev p {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  #projects .dev p {
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #projects .dev p {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+#projects .dev .button1 {
+  width: 10%;
+  height: 50px;
+  border-radius: 10%;
+  color: green;
+  background-color: #050836;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 8px;
+}
+@media (max-width: 800px) {
+  #projects .dev .button1 {
+    width: 130px;
+    padding-top: 5%;
+  }
+}
+#projects .dev h3 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#projects .dev li {
+  margin: 0 auto;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -92,11 +224,11 @@ body #buttons .button2 {
 header nav {
   display: flex;
   justify-content: space-evenly;
-  background-color: #6E7FA5;
+  background-color: #149dd3;
   height: 75px;
 }
 header nav a {
   text-decoration: none;
-  color: #122552;
+  color: #050836;
   margin-top: 25px;
 }
