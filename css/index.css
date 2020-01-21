@@ -45,6 +45,11 @@ body #buttons .button2 {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  #top {
+    background-color: blue;
+  }
+}
 #middle-top h2 {
   display: flex;
   justify-content: center;
@@ -52,6 +57,11 @@ body #buttons .button2 {
 @media (max-width: 800px) {
   #middle-top h2 {
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 500px) {
+  #middle-top h2 {
+    margin-bottom: 20px;
   }
 }
 #middle-top img {
@@ -62,6 +72,11 @@ body #buttons .button2 {
 @media (max-width: 800px) {
   #middle-top img {
     margin-left: 30%;
+  }
+}
+@media (max-width: 500px) {
+  #middle-top img {
+    margin-left: 20%;
   }
 }
 #info {
