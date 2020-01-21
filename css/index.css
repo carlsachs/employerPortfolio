@@ -80,6 +80,12 @@ body #buttons .button2 {
   text-align: center;
   margin-bottom: 10px;
 }
+@media (max-width: 800px) {
+  #top p {
+    width: 70%;
+    text-align: center;
+  }
+}
 #projects {
   width: 70%;
   margin: 0 auto;
@@ -87,6 +93,19 @@ body #buttons .button2 {
   background-color: #299b58;
   padding-top: 30px;
   border-radius: 20%;
+}
+@media (max-width: 800px) {
+  #projects {
+    height: 500px;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 500px) {
+  #projects {
+    background-color: white;
+    width: 90%;
+    height: 575px;
+  }
 }
 #projects .dev {
   width: 60%;
@@ -106,12 +125,31 @@ body #buttons .button2 {
   text-decoration: none;
   padding-top: 16px;
 }
+@media (max-width: 800px) {
+  #projects .dev .button {
+    width: 40%;
+  }
+}
 #projects .dev p {
   width: 50%;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+@media (max-width: 800px) {
+  #projects .dev p {
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #projects .dev p {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 #projects .dev .button1 {
   width: 10%;
@@ -123,6 +161,12 @@ body #buttons .button2 {
   text-decoration: none;
   text-align: center;
   padding-top: 8px;
+}
+@media (max-width: 800px) {
+  #projects .dev .button1 {
+    width: 130px;
+    padding-top: 5%;
+  }
 }
 #projects .dev h3 {
   margin: 0 auto;
