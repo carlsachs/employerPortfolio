@@ -23,3 +23,30 @@ body #top h1 {
 body #top p {
   margin-bottom: 50px;
 }
+body #buttons {
+  display: flex;
+}
+body #buttons .button {
+  width: 200px;
+  height: 50px;
+  background-color: #6E7FA5;
+  margin-right: 50px;
+  margin-top: 50px;
+  border-radius: 5%;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+  color: #122552;
+}
+body #buttons .button2 {
+  width: 200px;
+  height: 50px;
+  background-color: #6E7FA5;
+  margin-right: 50px;
+  margin-top: 50px;
+  border-radius: 5%;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+  color: darkest;
+}
