@@ -7,3 +7,13 @@
   font-weight: normal;
   font-style: normal;
 }
+.body header {
+  width: 100%;
+}
+.body header nav {
+  max-width: 100%;
+}
+.body header nav a {
+  color: #1B346D;
+  text-decoration: none;
+}
