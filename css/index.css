@@ -81,12 +81,14 @@ body #buttons .button2 {
   margin-bottom: 10px;
 }
 #projects {
-  width: 100%;
-  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+  height: 350px;
   background-color: #299b58;
+  padding-top: 30px;
+  border-radius: 20%;
 }
 #projects .dev {
-  border: 1px solid black;
   width: 60%;
   margin: 0 auto;
   display: flex;
@@ -100,6 +102,9 @@ body #buttons .button2 {
   color: green;
   background-color: #053609;
   margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 16px;
 }
 #projects .dev p {
   width: 50%;
@@ -110,10 +115,20 @@ body #buttons .button2 {
 }
 #projects .dev .button1 {
   width: 10%;
-  height: 20px;
+  height: 50px;
   border-radius: 10%;
   color: green;
   background-color: #053609;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 8px;
+}
+#projects .dev h3 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#projects .dev li {
   margin: 0 auto;
 }
 * {
