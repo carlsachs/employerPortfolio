@@ -45,11 +45,6 @@ body #buttons .button2 {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 500px) {
-  #top {
-    background-color: blue;
-  }
-}
 #middle-top h2 {
   display: flex;
   justify-content: center;
