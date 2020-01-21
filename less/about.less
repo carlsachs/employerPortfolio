@@ -6,11 +6,17 @@
     h2{
         display:flex;
         justify-content: center;
+        @media @tablet {
+            margin-bottom: 40px;
+        }
     }
     img {
         margin-left:42%;
         margin-top: 20px;
         margin-bottom: 20px;
+        @media @tablet {
+            margin-left: 30%;
+        }
     }
 }
 #info {
@@ -22,6 +28,10 @@
         flex-direction: column;
         h2 {
             margin: 0 auto;
+            @media @tablet {
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
         }
         p {
             margin: 0 auto;
