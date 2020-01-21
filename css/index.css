@@ -7,13 +7,16 @@
   font-weight: normal;
   font-style: normal;
 }
-.body header {
-  width: 100%;
+body {
+  background-color: #2A3F70;
 }
-.body header nav {
-  max-width: 100%;
+body #top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
 }
-.body header nav a {
-  color: #1B346D;
-  text-decoration: none;
+body #top h1 {
+  margin-bottom: 50px;
 }
